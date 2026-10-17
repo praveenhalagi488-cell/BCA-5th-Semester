@@ -1,0 +1,26 @@
+﻿using System;
+
+class program
+{
+    static void Main(string[] args)
+    {
+        int a = 10;
+        int b = 3;
+        double pi = 3.14;
+        char ch = 'A';
+        string name = "BCA";
+        bool status = true;
+
+        Console.WriteLine("Data Types & Variables:");
+        Console.WriteLine("Int: " + a + ", Double: " + pi);
+        Console.WriteLine("Char: " + ch + ", String: " + name);
+        Console.WriteLine("Bool: " + status);
+
+        Console.WriteLine("\nArithmetic Operators:");
+        Console.WriteLine("Addition: " + (a + b));
+        Console.WriteLine("Subtraction: " + (a - b));
+        Console.WriteLine("Multiplication: " + (a * b));
+        Console.WriteLine("Division: " + (a / b));
+        Console.WriteLine("Remainder: " + (a % b));
+    }
+}
